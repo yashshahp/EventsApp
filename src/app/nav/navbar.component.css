@@ -1,0 +1,24 @@
+.nav.navbar-nav{
+    font-size: 15px;
+}
+#searchForm{
+    margin-right:100px;
+}
+@media(max-width:1200px) {#searchForm {display:none}}
+.navbar{
+  background-color:  #485563;
+}
+.navbar .container-fluid>.navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav>li {
+  float: left;
+}
+li > a.active-link{
+  color: #F97924;
+}
